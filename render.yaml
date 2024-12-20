@@ -1,0 +1,9 @@
+services:
+  - name: static-site
+    type: static_site
+    repo: https://github.com/your-username/your-repo-name
+    staticPublishPath: public  # The folder to serve as the root of your static site (e.g., `public`, `build`, or `dist`)
+    buildCommand: npm run build  # The command to build your site (e.g., `npm run build`, `yarn build`, or leave blank if no build step is required)
+    envVars:
+      - key: NODE_VERSION
+        value: 18
