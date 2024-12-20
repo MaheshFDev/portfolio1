@@ -1,0 +1,75 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", serif;
+  background: black;
+  color: #ffffffb8;
+  font-size: 0.9rem;
+  font-weight: 100;
+  padding:1rem;
+}
+
+.container {
+  max-width: 450px;
+  margin: 0 auto;
+
+  margin-top: 5rem;
+}
+
+.profile__card {
+  display: flex;
+  align-items: center;
+  grid-gap: 1.5rem;
+}
+
+.__pic img {
+  border-radius: 50%;
+}
+
+.__details h1 {
+  color: #fff;
+  font-weight: 300;
+}
+
+.__details h3 {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+.profile__about {
+  margin-top: 2.5rem;
+}
+
+.profile__title {
+  color: #fff;
+}
+
+.profile__des {
+  margin-top: 0.4rem;
+}
+
+.workExp {
+  margin-top: 3rem;
+}
+
+.list__main {
+  margin-top: 2rem;
+}
+
+.list__item {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-gap: 1.5rem;
+
+  margin-bottom: 2rem;
+}
+
+.list_sub_items p:first-child {
+  margin-bottom: .4rem;
+}
